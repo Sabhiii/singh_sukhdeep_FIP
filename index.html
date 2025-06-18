@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home | Squeezit</title>
+    <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
+    <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
+    <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/index.min.css" />
+</head>
+
+<body>
+    <header class="header" data-page="home" data-page-parent="home">
+        <div class="container d-flex align-items-center justify-content-between flex-wrap flex-xl-nowrap">
+            <a class="logo h3" href="index.html">
+                <img src="img/logo.svg" alt="" style="width: 50%;">
+            </a>
+            <nav class="header_nav text--medium text--md collapse" id="headerMenu">
+                <ul class="header_nav-list">
+                    <li class="header_nav-list_item dropdown">
+                        <a class="nav-link nav-item dropdown-toggle d-flex align-items-center" href="index.html">
+                            <span class="nav-item_text"> Home </span>
+                        </a>
+                    </li>
+                    <li class="header_nav-list_item">
+                        <a class="nav-item nav-link" href="about.html" data-page="about" data-single="true">
+                            <span class="nav-item_text">About</span>
+                        </a>
+                    </li>
+                    <li class="header_nav-list_item">
+                        <a class="nav-item nav-link" href="menu.html" data-page="menu" data-single="true">
+                            <span class="nav-item_text">Menu</span>
+                        </a>
+                    </li>
+                    <li class="header_nav-list_item dropdown">
+                        <a class="nav-link nav-item dropdown-toggle d-flex align-items-center" href="contacts.html">
+                            <span class="nav-item_text"> Contact Us </span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="header_nav-socials d-flex">
+                    <li>
+                        <a class="link" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                            <i class="icon-twitter icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <i class="icon-facebook icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i class="icon-instagram icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header_trigger" id="headerTrigger" data-bs-toggle="collapse" data-bs-target="#headerMenu"
+                aria-controls="headerMenu" aria-expanded="false" type="button">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line line--short"></span>
+            </button>
+        </div>
+    </header>
+    <!-- homepage content start -->
+    <main>
+        <!-- hero section start -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero_main">
+                    <div class="section_header">
+                        <span class="section_header-subtitle" data-aos="fade-down">DRINKS</span>
+                        <h1 class="section_header-title" data-aos="fade-up">Welcome to Squeezit</h1>
+                        <p class="section_header-text text--medium" data-aos="fade-right">
+                            Every drink at Squeezit is crafted to fuel your day with vibrant flavors, fresh ingredients,
+                            and feel-good energy.
+                        </p>
+
+                        <div class="wrapper d-flex">
+                            <span data-aos="fade-up">
+                                <a class="btn" href="contact.html">contact</a>
+                            </span>
+                            <span data-aos="fade-up" data-aos-delay="50">
+                                <a class="btn btn--play videoTrigger" href="#"><i class="icon-play"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero_slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture>
+                                <source data-srcset="img/head1.jpg" srcset="img/head1.jpg" type="image/webp" />
+                                <img class="lazy" data-src="img/head1.jpg" src="img/head1.jpg" alt="media" />
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <source data-srcset="img/head1.jpg" srcset="img/head1.jpg" type="image/webp" />
+                                <img class="lazy" data-src="img/head1.jpg" src="img/head1.jpg" alt="media" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="hero_slider-nav swiper-overlay-nav swiper-nav">
+                        <a class="swiper-button-prev nav-item" href="#">
+                            <i class="icon-chevron-left"></i>
+                        </a>
+                        <a class="swiper-button-next nav-item" href="#">
+                            <i class="icon-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
+        <!-- offer section start -->
+        <section class="offer section">
+            <div class="container d-md-flex align-items-center">
+                <div class="offer_media" data-aos="fade-right">
+                    <picture>
+                        <source data-srcset="img/3.webp" srcset="img/3.webp" type="image/webp" />
+                        <img class="lazy" data-src="img/3.webp" src="img/3.webp" alt="Every 5th DRINKS as a gift." />
+                    </picture>
+                </div>
+                <div class="offer_main">
+                    <h3 class="offer_main-title" data-aos="fade-down">Free DRINKS!</h3>
+                    <h4 class="offer_main-subtitle icon" data-aos="fade-up">Every 5th DRINKS as a gift.</h4>
+                </div>
+            </div>
+        </section>
+        <!-- offer section end -->
+        <!-- booking section start -->
+        <section class="booking section">
+            <div class="container">
+                <div class="section_header centered">
+                    <span class="section_header-subtitle" data-aos="fade-up">welcome</span>
+                    <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50">Signature Drinks at Tasty
+                        Sips</h2>
+                    <p class="section_header-text" data-aos="fade-up" data-aos-delay="100">
+                        Discover a curated selection of handcrafted cocktails, refreshing mocktails, and artisanal
+                        beverages. Whether you're in the mood for something bold or something smooth, our drink menu has
+                        the perfect pour for every palate.
+                    </p>
+
+                </div>
+                <div class="wrapper" data-aos="fade-up" data-aos-delay="150">
+                    <a class="booking_btn btn" href="contact.html">Make contact</a>
+                </div>
+            </div>
+        </section>
+        <!-- booking section end -->
+        <!-- testimonials section start -->
+        <section class="testimonials">
+            <div class="media">
+                <picture>
+                    <source data-srcset="img/6.jpeg" srcset="img/6.jpeg" type="image/webp" />
+                    <img class="lazy" data-src="img/6.jpeg" src="img/6.jpeg" alt="What They Say About Us" />
+                </picture>
+            </div>
+            <div class="main">
+                <h2 class="testimonials_header">
+                    <span class="icon" data-aos="fade-right">
+                        <svg width="260" height="230" viewBox="0 0 260 230" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 230V0L115 115V230H0Z" fill="currentColor" />
+                            <path d="M145 230V0L260 115V230H145Z" fill="currentColor" />
+                        </svg>
+                    </span>
+                    <span class="text" data-aos="fade-down"> What They Say About Us </span>
+                </h2>
+                <div class="testimonials_slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonials_slider-slide swiper-slide">
+                            <p class="text text--medium text--md">
+                                Absolutely loved the cocktails here! Every drink is crafted to perfection — the mojito
+                                was refreshing and packed with flavor.
+                            </p>
+                            <h5 class="name">Kristin Watson</h5>
+                        </div>
+                        <div class="testimonials_slider-slide swiper-slide">
+                            <p class="text text--medium text--md">
+                                The variety of drinks is amazing. Tried the seasonal special and it blew me away.
+                                Definitely my go-to place for a night out!
+                            </p>
+                            <h5 class="name">Derek Smith</h5>
+                        </div>
+                        <div class="testimonials_slider-slide swiper-slide">
+                            <p class="text text--medium text--md">
+                                From fresh juices to signature cocktails, everything is delicious. The ambience and
+                                drink presentation are top-notch too!
+                            </p>
+                            <h5 class="name">Mary Lynn</h5>
+                        </div>
+
+                    </div>
+                    <div class="testimonials_slider-nav swiper-nav swiper-nav--round">
+                        <a class="swiper-button-prev swiper-nav-item" href="#">
+                            <i class="icon-chevron-left"></i>
+                        </a>
+                        <a class="swiper-button-next swiper-nav-item" href="#">
+                            <i class="icon-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonials section end -->
+        <!-- booking section start -->
+        <section class="booking section">
+            <div class="container">
+                <div class="section_header centered">
+                    <span class="section_header-subtitle" data-aos="fade-up">get in touch</span>
+                    <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50">We'd Love to Hear From You
+                    </h2>
+                    <p class="section_header-text" data-aos="fade-up" data-aos-delay="100">
+                        Have questions, feedback, or just want to say hello? Reach out to us anytime — we're here to
+                        help.
+                        Whether it's a quick inquiry or detailed assistance, our team is ready to assist you.
+                    </p>
+
+                </div>
+                <div class="wrapper" data-aos="fade-up" data-aos-delay="150">
+                    <a class="booking_btn btn" href="contact.html">reserve a table</a>
+                </div>
+            </div>
+        </section>
+        <!-- booking section end -->
+    </main>
+    <!-- homepage content end -->
+    <footer class="footer section">
+        <div class="container d-flex">
+            <div class="footer_about">
+                <a class="logo h3" href="index.html">
+                    <img src="img/logo.svg" style="width: 50%;" alt="">
+                </a>
+                <div class="wrapper">
+                    <p class="footer_about-address text--sm text--bold">St Jean Motorway, Phoenix 73536, Mauritius</p>
+                    <p class="footer_about-copyright text--sm">
+                        &copy;Squeezit All Rights Reserved <span id="currentYear"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="footer_block">
+                <h4 class="footer_block-title">Contact Info</h4>
+                <ul class="footer_block-list text--bold text--md">
+                    <li>
+                        <a class="link" href="#"> <i class="icon-phone icon"></i> (230) 5423 7864 </a>
+                    </li>
+                    <li>
+                        <a class="link" href="mailto:info@sip.mu"> <i class="icon-email icon"></i>
+                            info@sip.mu </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_block">
+                <h4 class="footer_block-title">Opening Hours</h4>
+                <ul class="footer_block-list text--md">
+                    <li><span class="text--bold">Mon – Fri</span> from 8am to 9pm</li>
+                    <li><span class="text--bold">Saturday</span> from 9am to 4pm</li>
+                    <li><span class="text--bold">Sunday</span> from 9am to 4pm</li>
+                </ul>
+            </div>
+            <div class="footer_block">
+                <h4 class="footer_block-title">Follow Our Activity</h4>
+                <p class="footer_block-subtitle text--md text--bold">We are in social networks</p>
+                <ul class="footer_block-socials d-flex">
+                    <li>
+                        <a class="link" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                            <i class="icon-twitter icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <i class="icon-facebook icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i class="icon-instagram icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/common.min.js"></script>
+    <script src="js/index.min.js"></script>
+</body>
+
+</html>
