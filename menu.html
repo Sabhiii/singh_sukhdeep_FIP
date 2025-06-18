@@ -1,335 +1,330 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE HTML>
+  <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Menu | Squeezit</title>
-    <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
-    <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
-    <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
+  <head>
+  <meta charset="UTF-8" />
+    <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0, MINIMUM-SCALE=1.0" />
+    <META HTTP-EQUIV="X-UA-COMPATIBLE" CONTENT="IE=EDGE" />
+  <title>Menu | Squeezit</title>
+  <link rel="stylesheet" href="css/main.css" />
+    </HEAD>
 
-    <link rel="stylesheet" href="css/menu.min.css" />
-</head>
+  <body>
+  <header class="header" data-page="home" data-page-parent="home">
+  <div class="container d-flex align-items-center justify-content-between flex-wrap flex-xl-nowrap">
+    <A CLASS="LOGO H3" HREF="INDEX.HTML">
+    <IMG SRC="IMG/LOGO.SVG" ALT="" STYLE="WIDTH: 50%;">
+  </a>
+    <NAV CLASS="HEADER_NAV TEXT--MEDIUM TEXT--MD COLLAPSE" ID="HEADERMENU">
+  <ul class="header_nav-list">
+    <LI CLASS="HEADER_NAV-LIST_ITEM">
+    <A CLASS="NAV-LINK NAV-ITEM D-FLEX ALIGN-ITEMS-CENTER" HREF="INDEX.HTML">
+    <SPAN CLASS="NAV-ITEM_TEXT"> HOME </SPAN>
+  </a>
+    </LI>
+    <LI CLASS="HEADER_NAV-LIST_ITEM">
+  <a class="nav-item nav-link" href="about.html" data-page="about" data-single="true">
+  <span class="nav-item_text">About</span>
+  </a>
+    </LI>
+    <LI CLASS="HEADER_NAV-LIST_ITEM">
+  <a class="nav-item nav-link" href="menu.html" data-page="menu" data-single="true">
+    <SPAN CLASS="NAV-ITEM_TEXT">MENU</SPAN>
+  </a>
+    </LI>
+    <LI CLASS="HEADER_NAV-LIST_ITEM">
+  <a class="nav-link nav-item d-flex align-items-center" href="contacts.html">
+    <SPAN CLASS="NAV-ITEM_TEXT"> CONTACT US </SPAN>
+  </a>
+    </LI>
+    </UL>
+  <ul class="header_nav-socials d-flex">
+  <li>
+    <A CLASS="LINK" HREF="HTTPS://TWITTER.COM" TARGET="_BLANK" REL="NOOPENER NOREFERRER">
+    <I CLASS="ICON-TWITTER ICON"></I>
+  </a>
+    </LI>
+  <li>
+  <a class="link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+  <i class="icon-facebook icon"></i>
+  </a>
+    </LI>
+  <li>
+    <A CLASS="LINK" HREF="HTTPS://INSTAGRAM.COM" TARGET="_BLANK" REL="NOOPENER NOREFERRER">
+    <I CLASS="ICON-INSTAGRAM ICON"></I>
+  </a>
+    </LI>
+    </UL>
+  </nav>
+  <button class="header_trigger" id="headerTrigger" data-bs-toggle="collapse" data-bs-target="#headerMenu"
+    ARIA-CONTROLS="HEADERMENU" ARIA-EXPANDED="FALSE" TYPE="BUTTON">
+  <span class="line"></span>
+  <span class="line"></span>
+  <span class="line line--short"></span>
+    </BUTTON>
+  </div>
+    </HEADER>
+    <HEADER CLASS="PAGE">
+    <DIV CLASS="PAGE_COVER D-FLEX FLEX-COLUMN ALIGN-ITEMS-CENTER JUSTIFY-CONTENT-CENTER">
+  <div class="page_cover-img"></div>
+  <h2 class="page_cover-title">Our Menu</h2>
+  </div>
+  <div class="page_breadcrumbs">
+    <UL CLASS="PAGE_BREADCRUMBS-LIST D-FLEX FLEX-WRAP JUSTIFY-CONTENT-CENTER H5">
+  <li>
+  <a class="link" href="index.html">Home</a>
+    </LI>
 
-<body>
-    <header class="header" data-page="home" data-page-parent="home">
-        <div class="container d-flex align-items-center justify-content-between flex-wrap flex-xl-nowrap">
-            <a class="logo h3" href="index.html">
-                <img src="img/logo.svg" alt="" style="width: 50%;">
-            </a>
-            <nav class="header_nav text--medium text--md collapse" id="headerMenu">
-                <ul class="header_nav-list">
-                    <li class="header_nav-list_item">
-                        <a class="nav-link nav-item d-flex align-items-center" href="index.html">
-                            <span class="nav-item_text"> Home </span>
-                        </a>
-                    </li>
-                    <li class="header_nav-list_item">
-                        <a class="nav-item nav-link" href="about.html" data-page="about" data-single="true">
-                            <span class="nav-item_text">About</span>
-                        </a>
-                    </li>
-                    <li class="header_nav-list_item">
-                        <a class="nav-item nav-link" href="menu.html" data-page="menu" data-single="true">
-                            <span class="nav-item_text">Menu</span>
-                        </a>
-                    </li>
-                    <li class="header_nav-list_item">
-                        <a class="nav-link nav-item d-flex align-items-center" href="contacts.html">
-                            <span class="nav-item_text"> Contact Us </span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="header_nav-socials d-flex">
-                    <li>
-                        <a class="link" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                            <i class="icon-twitter icon"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                            <i class="icon-facebook icon"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                            <i class="icon-instagram icon"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="header_trigger" id="headerTrigger" data-bs-toggle="collapse" data-bs-target="#headerMenu"
-                aria-controls="headerMenu" aria-expanded="false" type="button">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line line--short"></span>
-            </button>
-        </div>
-    </header>
-    <header class="page">
-        <div class="page_cover d-flex flex-column align-items-center justify-content-center">
-            <div class="page_cover-img"></div>
-            <h2 class="page_cover-title">Our Menu</h2>
-        </div>
-        <div class="page_breadcrumbs">
-            <ul class="page_breadcrumbs-list d-flex flex-wrap justify-content-center h5">
-                <li>
-                    <a class="link" href="index.html">Home</a>
-                </li>
+    <LI>MENU</LI>
+    </UL>
+  </div>
+    </HEADER>
+   
+  <main>
+  <section class="menu section">
+    <DIV CLASS="CONTAINER">
+    <DIV CLASS="SECTION_HEADER CENTERED">
+  <span class="section_header-subtitle" data-aos="fade-down">Our Drinks</span>
+  <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50">Squeezit Signature Menu</h2>
+    <P CLASS="SECTION_HEADER-TEXT" DATA-AOS="FADE-UP" DATA-AOS-DELAY="100">
+  Freshly crafted beverages made with love and the finest ingredients. From revitalizing juices to
+    BOLD MOCKTAILS — TASTE THE SQUEEZE!
+  </p>
+  </div>
 
-                <li>Menu</li>
-            </ul>
-        </div>
-    </header>
-    <!-- homepage content start -->
-    <main>
-        <section class="menu section">
-            <div class="container">
-                <div class="section_header centered">
-                    <span class="section_header-subtitle" data-aos="fade-down">Our Drinks</span>
-                    <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50">Squeezit Signature Menu</h2>
-                    <p class="section_header-text" data-aos="fade-up" data-aos-delay="100">
-                        Freshly crafted beverages made with love and the finest ingredients. From revitalizing juices to
-                        bold mocktails — taste the squeeze!
-                    </p>
-                </div>
-
-                <div class="menu_main">
-                    <ul class="menu_nav nav nav-tabs d-flex flex-wrap justify-content-center" role="tablist">
-                        <li class="nav-item h4" role="presentation">
-                            <div class="nav-link active" id="freshjuices-tab" data-bs-toggle="tab"
-                                data-bs-target="#freshjuices" role="tab" aria-selected="true">Fresh Juices</div>
-                        </li>
-                        <li class="nav-item h4" role="presentation">
-                            <div class="nav-link" id="smoothies-tab" data-bs-toggle="tab" data-bs-target="#smoothies"
-                                role="tab" aria-selected="false">Smoothies</div>
-                        </li>
-                        <li class="nav-item h4" role="presentation">
-                            <div class="nav-link" id="mocktails-tab" data-bs-toggle="tab" data-bs-target="#mocktails"
-                                role="tab" aria-selected="false">Mocktails</div>
-                        </li>
-                        <li class="nav-item h4" role="presentation">
-                            <div class="nav-link" id="specialties-tab" data-bs-toggle="tab"
-                                data-bs-target="#specialties" role="tab" aria-selected="false">Squeezit Specials</div>
-                        </li>
-                    </ul>
+    <DIV CLASS="MENU_MAIN">
+    <UL CLASS="MENU_NAV NAV NAV-TABS D-FLEX FLEX-WRAP JUSTIFY-CONTENT-CENTER" ROLE="TABLIST">
+  <li class="nav-item h4" role="presentation">
+  <div class="nav-link active" id="freshjuices-tab" data-bs-toggle="tab"
+  data-bs-target="#freshjuices" role="tab" aria-selected="true">Fresh Juices</div>
+    </LI>
+  <li class="nav-item h4" role="presentation">
+    <DIV CLASS="NAV-LINK" ID="SMOOTHIES-TAB" DATA-BS-TOGGLE="TAB" DATA-BS-TARGET="#SMOOTHIES"
+  role="tab" aria-selected="false">Smoothies</div>
+    </LI>
+  <li class="nav-item h4" role="presentation">
+    <DIV CLASS="NAV-LINK" ID="MOCKTAILS-TAB" DATA-BS-TOGGLE="TAB" DATA-BS-TARGET="#MOCKTAILS"
+  role="tab" aria-selected="false">Mocktails</div>
+    </LI>
+  <li class="nav-item h4" role="presentation">
+    <DIV CLASS="NAV-LINK" ID="SPECIALTIES-TAB" DATA-BS-TOGGLE="TAB"
+  data-bs-target="#specialties" role="tab" aria-selected="false">Squeezit Specials</div>
+    </LI>
+    </UL>
 
 
-                   <div class="tab-content" id="menuTabs">
+    <DIV CLASS="TAB-CONTENT" ID="MENUTABS">
 
-    <!-- Fresh Juices Tab -->
-    <div class="menu_tab tab-pane fade show active" id="freshjuices" role="tabpanel">
-        <span class="menu_tab-trigger" data-bs-toggle="collapse" data-bs-target="#freshjuices-list"
-            aria-expanded="true" role="button">
-            <span class="label h4">Fresh Juices</span>
-            <i class="icon"></i>
-        </span>
-        <ul class="menu_tab-list collapse show" id="freshjuices-list">
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">Sunrise Squeeze</a>
-                    <span class="main_price">$8</span>
-                </div>
-                <p class="description text--md">Orange, Carrot, Ginger, Lemon</p>
-            </li>
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">Green Zen</a>
-                    <span class="main_price">$9</span>
-                </div>
-                <p class="description text--md">Kale, Apple, Cucumber, Celery, Lime</p>
-            </li>
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">Berry Boost</a>
-                    <span class="main_price">$10</span>
-                </div>
-                <p class="description text--md">Blueberries, Strawberries, Apple, Beet</p>
-            </li>
-        </ul>
-    </div>
+    
+    <DIV CLASS="MENU_TAB TAB-PANE FADE SHOW ACTIVE" ID="FRESHJUICES" ROLE="TABPANEL">
+    <SPAN CLASS="MENU_TAB-TRIGGER" DATA-BS-TOGGLE="COLLAPSE" DATA-BS-TARGET="#FRESHJUICES-LIST"
+    ARIA-EXPANDED="TRUE" ROLE="BUTTON">
+  <span class="label h4">Fresh Juices</span>
+  <i class="icon"></i>
+    </SPAN>
+  <ul class="menu_tab-list collapse show" id="freshjuices-list">
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+    <A CLASS="MAIN_NAME" HREF="#">SUNRISE SQUEEZE</A>
+  <span class="main_price">$8</span>
+  </div>
+    <P CLASS="DESCRIPTION TEXT--MD">ORANGE, CARROT, GINGER, LEMON</P>
+    </LI>
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+    <A CLASS="MAIN_NAME" HREF="#">GREEN ZEN</A>
+  <span class="main_price">$9</span>
+  </div>
+    <P CLASS="DESCRIPTION TEXT--MD">KALE, APPLE, CUCUMBER, CELERY, LIME</P>
+    </LI>
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+    <A CLASS="MAIN_NAME" HREF="#">BERRY BOOST</A>
+    <SPAN CLASS="MAIN_PRICE">$10</SPAN>
+  </div>
+  <p class="description text--md">Blueberries, Strawberries, Apple, Beet</p>
+    </LI>
+    </UL>
+  </div>
 
-    <!-- Smoothies Tab -->
-    <div class="menu_tab tab-pane fade" id="smoothies" role="tabpanel">
-        <span class="menu_tab-trigger" data-bs-toggle="collapse" data-bs-target="#smoothies-list"
-            aria-expanded="false" role="button">
-            <span class="label h4">Smoothies</span>
-            <i class="icon"></i>
-        </span>
-        <ul class="menu_tab-list collapse" id="smoothies-list">
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">Tropical Punch</a>
-                    <span class="main_price">$9</span>
-                </div>
-                <p class="description text--md">Pineapple, Mango, Banana, Coconut Milk</p>
-            </li>
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">PB Power</a>
-                    <span class="main_price">$10</span>
-                </div>
-                <p class="description text--md">Peanut Butter, Banana, Almond Milk, Protein</p>
-            </li>
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">Berry Bliss</a>
-                    <span class="main_price">$9</span>
-                </div>
-                <p class="description text--md">Strawberries, Blueberries, Yogurt, Honey</p>
-            </li>
-        </ul>
-    </div>
+  
+    <DIV CLASS="MENU_TAB TAB-PANE FADE" ID="SMOOTHIES" ROLE="TABPANEL">
+    <SPAN CLASS="MENU_TAB-TRIGGER" DATA-BS-TOGGLE="COLLAPSE" DATA-BS-TARGET="#SMOOTHIES-LIST"
+  aria-expanded="false" role="button">
+    <SPAN CLASS="LABEL H4">SMOOTHIES</SPAN>
+  <i class="icon"></i>
+    </SPAN>
+    <UL CLASS="MENU_TAB-LIST COLLAPSE" ID="SMOOTHIES-LIST">
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+  <a class="main_name" href="#">Tropical Punch</a>
+  <span class="main_price">$9</span>
+  </div>
+  <p class="description text--md">Pineapple, Mango, Banana, Coconut Milk</p>
+    </LI>
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+  <a class="main_name" href="#">PB Power</a>
+    <SPAN CLASS="MAIN_PRICE">$10</SPAN>
+  </div>
+    <P CLASS="DESCRIPTION TEXT--MD">PEANUT BUTTER, BANANA, ALMOND MILK, PROTEIN</P>
+    </LI>
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+    <A CLASS="MAIN_NAME" HREF="#">BERRY BLISS</A>
+  <span class="main_price">$9</span>
+  </div>
+  <p class="description text--md">Strawberries, Blueberries, Yogurt, Honey</p>
+    </LI>
+    </UL>
+  </div>
 
-    <!-- Mocktails Tab -->
-    <div class="menu_tab tab-pane fade" id="mocktails" role="tabpanel">
-        <span class="menu_tab-trigger" data-bs-toggle="collapse" data-bs-target="#mocktails-list"
-            aria-expanded="false" role="button">
-            <span class="label h4">Mocktails</span>
-            <i class="icon"></i>
-        </span>
-        <ul class="menu_tab-list collapse" id="mocktails-list">
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">Virgin Mojito</a>
-                    <span class="main_price">$8</span>
-                </div>
-                <p class="description text--md">Mint, Lime, Club Soda, Brown Sugar</p>
-            </li>
-            <li class="menu_tab-list_item" data-type="spicy">
-                <div class="main h5">
-                    <a class="main_name" href="#"><i class="icon-spicy"></i> Spicy Sunset</a>
-                    <span class="main_price">$9</span>
-                </div>
-                <p class="description text--md">Pineapple, Jalapeño, Agave, Lime</p>
-            </li>
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">Berry Fizz</a>
-                    <span class="main_price">$9</span>
-                </div>
-                <p class="description text--md">Raspberries, Lemon Juice, Sparkling Water</p>
-            </li>
-        </ul>
-    </div>
 
-    <!-- Squeezit Specials Tab -->
-    <div class="menu_tab tab-pane fade" id="specialties" role="tabpanel">
-        <span class="menu_tab-trigger" data-bs-toggle="collapse" data-bs-target="#specialties-list"
-            aria-expanded="false" role="button">
-            <span class="label h4">Squeezit Specials</span>
-            <i class="icon"></i>
-        </span>
-        <ul class="menu_tab-list collapse" id="specialties-list">
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">Detox Elixir</a>
-                    <span class="main_price">$11</span>
-                </div>
-                <p class="description text--md">Activated Charcoal, Lemon, Honey, Mint</p>
-            </li>
-            <li class="menu_tab-list_item" data-type="vegan">
-                <div class="main h5">
-                    <a class="main_name" href="#"><i class="icon-vegan"></i> Immunity Shot</a>
-                    <span class="main_price">$5</span>
-                </div>
-                <p class="description text--md">Turmeric, Ginger, Lemon, Black Pepper</p>
-            </li>
-            <li class="menu_tab-list_item">
-                <div class="main h5">
-                    <a class="main_name" href="#">Squeezit Glow</a>
-                    <span class="main_price">$12</span>
-                </div>
-                <p class="description text--md">Coconut Water, Cucumber, Aloe Vera, Lime</p>
-            </li>
-        </ul>
-    </div>
+    <DIV CLASS="MENU_TAB TAB-PANE FADE" ID="MOCKTAILS" ROLE="TABPANEL">
+    <SPAN CLASS="MENU_TAB-TRIGGER" DATA-BS-TOGGLE="COLLAPSE" DATA-BS-TARGET="#MOCKTAILS-LIST"
+  aria-expanded="false" role="button">
+    <SPAN CLASS="LABEL H4">MOCKTAILS</SPAN>
+  <i class="icon"></i>
+    </SPAN>
+    <UL CLASS="MENU_TAB-LIST COLLAPSE" ID="MOCKTAILS-LIST">
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+    <A CLASS="MAIN_NAME" HREF="#">VIRGIN MOJITO</A>
+  <span class="main_price">$8</span>
+  </div>
+  <p class="description text--md">Mint, Lime, Club Soda, Brown Sugar</p>
+    </LI>
+    <LI CLASS="MENU_TAB-LIST_ITEM" DATA-TYPE="SPICY">
+    <DIV CLASS="MAIN H5">
+    <A CLASS="MAIN_NAME" HREF="#"><I CLASS="ICON-SPICY"></I> SPICY SUNSET</A>
+  <span class="main_price">$9</span>
+  </div>
+  <p class="description text--md">Pineapple, Jalapeño, Agave, Lime</p>
+    </LI>
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+  <a class="main_name" href="#">Berry Fizz</a>
+  <span class="main_price">$9</span>
+  </div>
+    <P CLASS="DESCRIPTION TEXT--MD">RASPBERRIES, LEMON JUICE, SPARKLING WATER</P>
+    </LI>
+    </UL>
+  </div>
 
-</div>
 
-        </section>
-        <!-- booking section start -->
-        <section class="booking section">
-            <div class="container">
-                <div class="section_header centered">
-                    <span class="section_header-subtitle" data-aos="fade-up">get in touch</span>
-                    <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50">We'd Love to Hear From You
-                    </h2>
-                    <p class="section_header-text" data-aos="fade-up" data-aos-delay="100">
-                        Have questions, feedback, or just want to say hello? Reach out to us anytime — we're here to
-                        help.
-                        Whether it's a quick inquiry or detailed assistance, our team is ready to assist you.
-                    </p>
+    <DIV CLASS="MENU_TAB TAB-PANE FADE" ID="SPECIALTIES" ROLE="TABPANEL">
+    <SPAN CLASS="MENU_TAB-TRIGGER" DATA-BS-TOGGLE="COLLAPSE" DATA-BS-TARGET="#SPECIALTIES-LIST"
+  aria-expanded="false" role="button">
+    <SPAN CLASS="LABEL H4">SQUEEZIT SPECIALS</SPAN>
+  <i class="icon"></i>
+    </SPAN>
+    <UL CLASS="MENU_TAB-LIST COLLAPSE" ID="SPECIALTIES-LIST">
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+  <a class="main_name" href="#">Detox Elixir</a>
+    <SPAN CLASS="MAIN_PRICE">$11</SPAN>
+  </div>
+  <p class="description text--md">Activated Charcoal, Lemon, Honey, Mint</p>
+    </LI>
+    <LI CLASS="MENU_TAB-LIST_ITEM" DATA-TYPE="VEGAN">
+    <DIV CLASS="MAIN H5">
+  <a class="main_name" href="#"><i class="icon-vegan"></i> Immunity Shot</a>
+  <span class="main_price">$5</span>
+  </div>
+    <P CLASS="DESCRIPTION TEXT--MD">TURMERIC, GINGER, LEMON, BLACK PEPPER</P>
+    </LI>
+    <LI CLASS="MENU_TAB-LIST_ITEM">
+    <DIV CLASS="MAIN H5">
+    <A CLASS="MAIN_NAME" HREF="#">SQUEEZIT GLOW</A>
+    <SPAN CLASS="MAIN_PRICE">$12</SPAN>
+  </div>
+  <p class="description text--md">Coconut Water, Cucumber, Aloe Vera, Lime</p>
+    </LI>
+    </UL>
+  </div>
 
-                </div>
-                <div class="wrapper" data-aos="fade-up" data-aos-delay="150">
-                    <a class="booking_btn btn" href="contact.html">reserve a table</a>
-                </div>
-            </div>
-        </section>
-        <!-- booking section end -->
-        <!-- menu content end -->
-    </main>
-    <!-- homepage content end -->
-   <footer class="footer section">
-        <div class="container d-flex">
-            <div class="footer_about">
-                <a class="logo h3" href="index.html">
-                    <img src="img/logo.svg" style="width: 50%;" alt="">
-                </a>
-                <div class="wrapper">
-                    <p class="footer_about-address text--sm text--bold">St Jean Motorway, Phoenix 73536, Mauritius</p>
-                    <p class="footer_about-copyright text--sm">
-                        &copy;Squeezit All Rights Reserved <span id="currentYear"></span>
-                    </p>
-                </div>
-            </div>
-            <div class="footer_block">
-                <h4 class="footer_block-title">Contact Info</h4>
-                <ul class="footer_block-list text--bold text--md">
-                    <li>
-                        <a class="link" href="#"> <i class="icon-phone icon"></i> (230) 5423 7864 </a>
-                    </li>
-                    <li>
-                        <a class="link" href="mailto:info@sip.mu"> <i class="icon-email icon"></i>
-                            info@sip.mu </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer_block">
-                <h4 class="footer_block-title">Opening Hours</h4>
-                <ul class="footer_block-list text--md">
-                    <li><span class="text--bold">Mon – Fri</span> from 8am to 9pm</li>
-                    <li><span class="text--bold">Saturday</span> from 9am to 4pm</li>
-                    <li><span class="text--bold">Sunday</span> from 9am to 4pm</li>
-                </ul>
-            </div>
-            <div class="footer_block">
-                <h4 class="footer_block-title">Follow Our Activity</h4>
-                <p class="footer_block-subtitle text--md text--bold">We are in social networks</p>
-                <ul class="footer_block-socials d-flex">
-                    <li>
-                        <a class="link" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                            <i class="icon-twitter icon"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                            <i class="icon-facebook icon"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                            <i class="icon-instagram icon"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <script src="js/common.min.js"></script>
-    <script src="js/index.min.js"></script>
-    </body>
-</html>
+  </div>
+
+  </section>
+ 
+    <SECTION CLASS="BOOKING SECTION">
+    <DIV CLASS="CONTAINER">
+    <DIV CLASS="SECTION_HEADER CENTERED">
+  <span class="section_header-subtitle" data-aos="fade-up">get in touch</span>
+  <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50">We'd Love to Hear From You
+    </H2>
+    <P CLASS="SECTION_HEADER-TEXT" DATA-AOS="FADE-UP" DATA-AOS-DELAY="100">
+  Have questions, feedback, or just want to say hello? Reach out to us anytime — we're here to
+    HELP.
+    WHETHER IT'S A QUICK INQUIRY OR DETAILED ASSISTANCE, OUR TEAM IS READY TO ASSIST YOU.
+  </p>
+
+  </div>
+    <DIV CLASS="WRAPPER" DATA-AOS="FADE-UP" DATA-AOS-DELAY="150">
+  <a class="booking_btn btn" href="contact.html">reserve a table</a>
+  </div>
+  </div>
+  </section>
+
+    </MAIN>
+    
+    <FOOTER CLASS="FOOTER SECTION">
+  <div class="container d-flex">
+  <div class="footer_about">
+    <A CLASS="LOGO H3" HREF="INDEX.HTML">
+    <IMG SRC="IMG/LOGO.SVG" STYLE="WIDTH: 50%;" ALT="">
+  </a>
+    <DIV CLASS="WRAPPER">
+  <p class="footer_about-address text--sm text--bold">St Jean Motorway, Phoenix 73536, Mauritius</p>
+    <P CLASS="FOOTER_ABOUT-COPYRIGHT TEXT--SM">
+    &COPY;SQUEEZIT ALL RIGHTS RESERVED <SPAN ID="CURRENTYEAR"></SPAN>
+  </p>
+  </div>
+  </div>
+  <div class="footer_block">
+  <h4 class="footer_block-title">Contact Info</h4>
+  <ul class="footer_block-list text--bold text--md">
+  <li>
+  <a class="link" href="#"> <i class="icon-phone icon"></i> (230) 5423 7864 </a>
+    </LI>
+  <li>
+  <a class="link" href="mailto:info@sip.mu"> <i class="icon-email icon"></i>
+  info@sip.mu </a>
+    </LI>
+    </UL>
+  </div>
+  <div class="footer_block">
+    <H4 CLASS="FOOTER_BLOCK-TITLE">OPENING HOURS</H4>
+    <UL CLASS="FOOTER_BLOCK-LIST TEXT--MD">
+  <li><span class="text--bold">Mon – Fri</span> from 8am to 9pm</li>
+    <LI><SPAN CLASS="TEXT--BOLD">SATURDAY</SPAN> FROM 9AM TO 4PM</LI>
+    <LI><SPAN CLASS="TEXT--BOLD">SUNDAY</SPAN> FROM 9AM TO 4PM</LI>
+    </UL>
+  </div>
+  <div class="footer_block">
+    <H4 CLASS="FOOTER_BLOCK-TITLE">FOLLOW OUR ACTIVITY</H4>
+  <p class="footer_block-subtitle text--md text--bold">We are in social networks</p>
+  <ul class="footer_block-socials d-flex">
+  <li>
+    <A CLASS="LINK" HREF="HTTPS://TWITTER.COM" TARGET="_BLANK" REL="NOOPENER NOREFERRER">
+    <I CLASS="ICON-TWITTER ICON"></I>
+  </a>
+    </LI>
+  <li>
+  <a class="link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+  <i class="icon-facebook icon"></i>
+  </a>
+    </LI>
+  <li>
+    <A CLASS="LINK" HREF="HTTPS://INSTAGRAM.COM" TARGET="_BLANK" REL="NOOPENER NOREFERRER">
+    <I CLASS="ICON-INSTAGRAM ICON"></I>
+  </a>
+    </LI>
+    </UL>
+  </div>
+  </div>
+    </FOOTER>
+
+
+    </BODY>
+    </HTML>
